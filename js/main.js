@@ -50,7 +50,7 @@ function setUpdate(id){
     var obj = lista[id];
     document.getElementById('desc').value   = obj.desc;
     document.getElementById('qtde').value   = obj.qtde;
-    document.getElementById('valor').value = obj.valor;
+    document.getElementById('valor').value  = obj.valor;
 
     document.getElementById("btnUpdate").style.display = "inline-block";
     document.getElementById("btnAdd").style.display = "none";
